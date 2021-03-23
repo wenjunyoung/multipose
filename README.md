@@ -1,6 +1,6 @@
 MultiPose
 ======
-The repo is  multi-pose estimation for CPU,  GPUs are not needed. you can run it in the Intel CPU with WeCam.
+The repo is  multi-pose estimation for CPU,  GPUs are not needed. you can run it in the Intel CPU with WeCam or video file.
 
 Environment
 ===
@@ -19,6 +19,21 @@ Quick start
 
 ## RUN
     # USAGE
-    python multi_keypoint.py --xml /path/to/your/model/*.xml --bin /path/to/your/model/*.bin --input_video /path/to/your/video --output /path/to/save/video/file/<br/>
+    python multi_keypoint.py --xml /path/to/your/model/*.xml --bin /path/to/your/model/*.bin --input_video /path/to/your/video --output /path/to/save/video/file
     
 tips: before running, please Set up the OpenVINO environment variables   
+
+License
+=======
+MIT License (refer to the LICENSE file for details).
+
+Citation
+======
+If you find this project useful for your research, please use the following BibTeX entry.
+
+        @inproceedings{zhou2019objects,
+          title={Objects as Points},
+          author={Zhou, Xingyi and Wang, Dequan and Kr{\"a}henb{\"u}hl, Philipp},
+          booktitle={arXiv preprint arXiv:1904.07850},
+          year={2019}
+        }
