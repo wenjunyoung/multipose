@@ -1,6 +1,6 @@
 MultiPose
 ======
-The repo is  multi pose estimation for CPU,  GPUs are not needed. you can run it in the Intel CPU with WeCam
+The repo is  multi-pose estimation for CPU,  GPUs are not needed. you can run it in the Intel CPU with WeCam.
 
 Environment
 ===
