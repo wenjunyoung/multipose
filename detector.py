@@ -4,7 +4,7 @@ import time
 import torch
 import numpy as np
 from utils import get_affine_transform,_transpose_and_gather_feat, _nms, _topk, _topk_channel, multi_pose_post_process
-from show_all_imgs import add_coco_bbox, add_coco_hp
+from show_all_imgs import add_coco_hp
 
 num_classes = 1
 vis_thresh = 0.3
